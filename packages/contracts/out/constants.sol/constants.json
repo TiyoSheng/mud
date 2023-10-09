@@ -1,0 +1,1285 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "/Users/shengtianyao/project/jetable/my-project1/node_modules/.pnpm/@latticexyz+world@2.0.0-next.11_typescript@5.1.6/node_modules/@latticexyz/world/src/constants.sol",
+    "id": 24341,
+    "exportedSymbols": {
+      "RESOURCE_NAMESPACE": [
+        24384
+      ],
+      "RESOURCE_SYSTEM": [
+        24390
+      ],
+      "ROOT_NAME": [
+        24271
+      ],
+      "ROOT_NAMESPACE": [
+        24268
+      ],
+      "ROOT_NAMESPACE_ID": [
+        24322
+      ],
+      "ResourceId": [
+        26592
+      ],
+      "STORE_NAMESPACE_ID": [
+        24289
+      ],
+      "UNLIMITED_DELEGATION": [
+        24340
+      ],
+      "WORLD_NAMESPACE_ID": [
+        24307
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:808:47",
+    "nodes": [
+      {
+        "id": 24260,
+        "nodeType": "PragmaDirective",
+        "src": "32:25:47",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".21"
+        ]
+      },
+      {
+        "id": 24262,
+        "nodeType": "ImportDirective",
+        "src": "59:66:47",
+        "nodes": [],
+        "absolutePath": "node_modules/@latticexyz/store/src/ResourceId.sol",
+        "file": "@latticexyz/store/src/ResourceId.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 24341,
+        "sourceUnit": 26664,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 24261,
+              "name": "ResourceId",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 26592,
+              "src": "68:10:47",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 24265,
+        "nodeType": "ImportDirective",
+        "src": "127:79:47",
+        "nodes": [],
+        "absolutePath": "/Users/shengtianyao/project/jetable/my-project1/node_modules/.pnpm/@latticexyz+world@2.0.0-next.11_typescript@5.1.6/node_modules/@latticexyz/world/src/worldResourceTypes.sol",
+        "file": "./worldResourceTypes.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 24341,
+        "sourceUnit": 24409,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 24263,
+              "name": "RESOURCE_SYSTEM",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 24390,
+              "src": "136:15:47",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          },
+          {
+            "foreign": {
+              "id": 24264,
+              "name": "RESOURCE_NAMESPACE",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 24384,
+              "src": "153:18:47",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 24268,
+        "nodeType": "VariableDeclaration",
+        "src": "208:36:47",
+        "nodes": [],
+        "constant": true,
+        "mutability": "constant",
+        "name": "ROOT_NAMESPACE",
+        "nameLocation": "225:14:47",
+        "scope": 24341,
+        "stateVariable": false,
+        "storageLocation": "default",
+        "typeDescriptions": {
+          "typeIdentifier": "t_bytes14",
+          "typeString": "bytes14"
+        },
+        "typeName": {
+          "id": 24266,
+          "name": "bytes14",
+          "nodeType": "ElementaryTypeName",
+          "src": "208:7:47",
+          "typeDescriptions": {
+            "typeIdentifier": "t_bytes14",
+            "typeString": "bytes14"
+          }
+        },
+        "value": {
+          "hexValue": "",
+          "id": 24267,
+          "isConstant": false,
+          "isLValue": false,
+          "isPure": true,
+          "kind": "string",
+          "lValueRequested": false,
+          "nodeType": "Literal",
+          "src": "242:2:47",
+          "typeDescriptions": {
+            "typeIdentifier": "t_stringliteral_c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "typeString": "literal_string \"\""
+          },
+          "value": ""
+        },
+        "visibility": "internal"
+      },
+      {
+        "id": 24271,
+        "nodeType": "VariableDeclaration",
+        "src": "246:31:47",
+        "nodes": [],
+        "constant": true,
+        "mutability": "constant",
+        "name": "ROOT_NAME",
+        "nameLocation": "263:9:47",
+        "scope": 24341,
+        "stateVariable": false,
+        "storageLocation": "default",
+        "typeDescriptions": {
+          "typeIdentifier": "t_bytes16",
+          "typeString": "bytes16"
+        },
+        "typeName": {
+          "id": 24269,
+          "name": "bytes16",
+          "nodeType": "ElementaryTypeName",
+          "src": "246:7:47",
+          "typeDescriptions": {
+            "typeIdentifier": "t_bytes16",
+            "typeString": "bytes16"
+          }
+        },
+        "value": {
+          "hexValue": "",
+          "id": 24270,
+          "isConstant": false,
+          "isLValue": false,
+          "isPure": true,
+          "kind": "string",
+          "lValueRequested": false,
+          "nodeType": "Literal",
+          "src": "275:2:47",
+          "typeDescriptions": {
+            "typeIdentifier": "t_stringliteral_c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+            "typeString": "literal_string \"\""
+          },
+          "value": ""
+        },
+        "visibility": "internal"
+      },
+      {
+        "id": 24289,
+        "nodeType": "VariableDeclaration",
+        "src": "280:136:47",
+        "nodes": [],
+        "constant": true,
+        "mutability": "constant",
+        "name": "STORE_NAMESPACE_ID",
+        "nameLocation": "300:18:47",
+        "scope": 24341,
+        "stateVariable": false,
+        "storageLocation": "default",
+        "typeDescriptions": {
+          "typeIdentifier": "t_userDefinedValueType$_ResourceId_$26592",
+          "typeString": "ResourceId"
+        },
+        "typeName": {
+          "id": 24273,
+          "nodeType": "UserDefinedTypeName",
+          "pathNode": {
+            "id": 24272,
+            "name": "ResourceId",
+            "nameLocations": [
+              "280:10:47"
+            ],
+            "nodeType": "IdentifierPath",
+            "referencedDeclaration": 26592,
+            "src": "280:10:47"
+          },
+          "referencedDeclaration": 26592,
+          "src": "280:10:47",
+          "typeDescriptions": {
+            "typeIdentifier": "t_userDefinedValueType$_ResourceId_$26592",
+            "typeString": "ResourceId"
+          }
+        },
+        "value": {
+          "arguments": [
+            {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "id": 24280,
+                      "name": "RESOURCE_NAMESPACE",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 24384,
+                      "src": "365:18:47",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes2",
+                        "typeString": "bytes2"
+                      }
+                    },
+                    {
+                      "arguments": [
+                        {
+                          "hexValue": "73746f7265",
+                          "id": 24283,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "393:7:47",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_e41d88711b08bdcd7556c5d2d24e0da6fa1f614cf2055f4d7e10206017cd1680",
+                            "typeString": "literal_string \"store\""
+                          },
+                          "value": "store"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_stringliteral_e41d88711b08bdcd7556c5d2d24e0da6fa1f614cf2055f4d7e10206017cd1680",
+                            "typeString": "literal_string \"store\""
+                          }
+                        ],
+                        "id": 24282,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "385:7:47",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_bytes14_$",
+                          "typeString": "type(bytes14)"
+                        },
+                        "typeName": {
+                          "id": 24281,
+                          "name": "bytes14",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "385:7:47",
+                          "typeDescriptions": {}
+                        }
+                      },
+                      "id": 24284,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "385:16:47",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes14",
+                        "typeString": "bytes14"
+                      }
+                    },
+                    {
+                      "id": 24285,
+                      "name": "ROOT_NAME",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 24271,
+                      "src": "403:9:47",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes16",
+                        "typeString": "bytes16"
+                      }
+                    }
+                  ],
+                  "expression": {
+                    "argumentTypes": [
+                      {
+                        "typeIdentifier": "t_bytes2",
+                        "typeString": "bytes2"
+                      },
+                      {
+                        "typeIdentifier": "t_bytes14",
+                        "typeString": "bytes14"
+                      },
+                      {
+                        "typeIdentifier": "t_bytes16",
+                        "typeString": "bytes16"
+                      }
+                    ],
+                    "expression": {
+                      "id": 24278,
+                      "name": "abi",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": -1,
+                      "src": "348:3:47",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_magic_abi",
+                        "typeString": "abi"
+                      }
+                    },
+                    "id": 24279,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "lValueRequested": false,
+                    "memberLocation": "352:12:47",
+                    "memberName": "encodePacked",
+                    "nodeType": "MemberAccess",
+                    "src": "348:16:47",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_function_abiencodepacked_pure$__$returns$_t_bytes_memory_ptr_$",
+                      "typeString": "function () pure returns (bytes memory)"
+                    }
+                  },
+                  "id": 24286,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "functionCall",
+                  "lValueRequested": false,
+                  "nameLocations": [],
+                  "names": [],
+                  "nodeType": "FunctionCall",
+                  "src": "348:65:47",
+                  "tryCall": false,
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes memory"
+                  }
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes memory"
+                  }
+                ],
+                "id": 24277,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "340:7:47",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes32_$",
+                  "typeString": "type(bytes32)"
+                },
+                "typeName": {
+                  "id": 24276,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "340:7:47",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 24287,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "nameLocations": [],
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "340:74:47",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            }
+          ],
+          "expression": {
+            "argumentTypes": [
+              {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            ],
+            "expression": {
+              "id": 24274,
+              "name": "ResourceId",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 26592,
+              "src": "321:10:47",
+              "typeDescriptions": {
+                "typeIdentifier": "t_type$_t_userDefinedValueType$_ResourceId_$26592_$",
+                "typeString": "type(ResourceId)"
+              }
+            },
+            "id": 24275,
+            "isConstant": false,
+            "isLValue": false,
+            "isPure": true,
+            "lValueRequested": false,
+            "memberLocation": "332:4:47",
+            "memberName": "wrap",
+            "nodeType": "MemberAccess",
+            "src": "321:15:47",
+            "typeDescriptions": {
+              "typeIdentifier": "t_function_wrap_pure$_t_bytes32_$returns$_t_userDefinedValueType$_ResourceId_$26592_$",
+              "typeString": "function (bytes32) pure returns (ResourceId)"
+            }
+          },
+          "id": 24288,
+          "isConstant": false,
+          "isLValue": false,
+          "isPure": true,
+          "kind": "functionCall",
+          "lValueRequested": false,
+          "nameLocations": [],
+          "names": [],
+          "nodeType": "FunctionCall",
+          "src": "321:95:47",
+          "tryCall": false,
+          "typeDescriptions": {
+            "typeIdentifier": "t_userDefinedValueType$_ResourceId_$26592",
+            "typeString": "ResourceId"
+          }
+        },
+        "visibility": "internal"
+      },
+      {
+        "id": 24307,
+        "nodeType": "VariableDeclaration",
+        "src": "419:136:47",
+        "nodes": [],
+        "constant": true,
+        "mutability": "constant",
+        "name": "WORLD_NAMESPACE_ID",
+        "nameLocation": "439:18:47",
+        "scope": 24341,
+        "stateVariable": false,
+        "storageLocation": "default",
+        "typeDescriptions": {
+          "typeIdentifier": "t_userDefinedValueType$_ResourceId_$26592",
+          "typeString": "ResourceId"
+        },
+        "typeName": {
+          "id": 24291,
+          "nodeType": "UserDefinedTypeName",
+          "pathNode": {
+            "id": 24290,
+            "name": "ResourceId",
+            "nameLocations": [
+              "419:10:47"
+            ],
+            "nodeType": "IdentifierPath",
+            "referencedDeclaration": 26592,
+            "src": "419:10:47"
+          },
+          "referencedDeclaration": 26592,
+          "src": "419:10:47",
+          "typeDescriptions": {
+            "typeIdentifier": "t_userDefinedValueType$_ResourceId_$26592",
+            "typeString": "ResourceId"
+          }
+        },
+        "value": {
+          "arguments": [
+            {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "id": 24298,
+                      "name": "RESOURCE_NAMESPACE",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 24384,
+                      "src": "504:18:47",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes2",
+                        "typeString": "bytes2"
+                      }
+                    },
+                    {
+                      "arguments": [
+                        {
+                          "hexValue": "776f726c64",
+                          "id": 24301,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "532:7:47",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_8452c9b9140222b08593a26daa782707297be9f7b3e8281d7b4974769f19afd0",
+                            "typeString": "literal_string \"world\""
+                          },
+                          "value": "world"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_stringliteral_8452c9b9140222b08593a26daa782707297be9f7b3e8281d7b4974769f19afd0",
+                            "typeString": "literal_string \"world\""
+                          }
+                        ],
+                        "id": 24300,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "524:7:47",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_bytes14_$",
+                          "typeString": "type(bytes14)"
+                        },
+                        "typeName": {
+                          "id": 24299,
+                          "name": "bytes14",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "524:7:47",
+                          "typeDescriptions": {}
+                        }
+                      },
+                      "id": 24302,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "524:16:47",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes14",
+                        "typeString": "bytes14"
+                      }
+                    },
+                    {
+                      "id": 24303,
+                      "name": "ROOT_NAME",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 24271,
+                      "src": "542:9:47",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes16",
+                        "typeString": "bytes16"
+                      }
+                    }
+                  ],
+                  "expression": {
+                    "argumentTypes": [
+                      {
+                        "typeIdentifier": "t_bytes2",
+                        "typeString": "bytes2"
+                      },
+                      {
+                        "typeIdentifier": "t_bytes14",
+                        "typeString": "bytes14"
+                      },
+                      {
+                        "typeIdentifier": "t_bytes16",
+                        "typeString": "bytes16"
+                      }
+                    ],
+                    "expression": {
+                      "id": 24296,
+                      "name": "abi",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": -1,
+                      "src": "487:3:47",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_magic_abi",
+                        "typeString": "abi"
+                      }
+                    },
+                    "id": 24297,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "lValueRequested": false,
+                    "memberLocation": "491:12:47",
+                    "memberName": "encodePacked",
+                    "nodeType": "MemberAccess",
+                    "src": "487:16:47",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_function_abiencodepacked_pure$__$returns$_t_bytes_memory_ptr_$",
+                      "typeString": "function () pure returns (bytes memory)"
+                    }
+                  },
+                  "id": 24304,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "functionCall",
+                  "lValueRequested": false,
+                  "nameLocations": [],
+                  "names": [],
+                  "nodeType": "FunctionCall",
+                  "src": "487:65:47",
+                  "tryCall": false,
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes memory"
+                  }
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes memory"
+                  }
+                ],
+                "id": 24295,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "479:7:47",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes32_$",
+                  "typeString": "type(bytes32)"
+                },
+                "typeName": {
+                  "id": 24294,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "479:7:47",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 24305,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "nameLocations": [],
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "479:74:47",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            }
+          ],
+          "expression": {
+            "argumentTypes": [
+              {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            ],
+            "expression": {
+              "id": 24292,
+              "name": "ResourceId",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 26592,
+              "src": "460:10:47",
+              "typeDescriptions": {
+                "typeIdentifier": "t_type$_t_userDefinedValueType$_ResourceId_$26592_$",
+                "typeString": "type(ResourceId)"
+              }
+            },
+            "id": 24293,
+            "isConstant": false,
+            "isLValue": false,
+            "isPure": true,
+            "lValueRequested": false,
+            "memberLocation": "471:4:47",
+            "memberName": "wrap",
+            "nodeType": "MemberAccess",
+            "src": "460:15:47",
+            "typeDescriptions": {
+              "typeIdentifier": "t_function_wrap_pure$_t_bytes32_$returns$_t_userDefinedValueType$_ResourceId_$26592_$",
+              "typeString": "function (bytes32) pure returns (ResourceId)"
+            }
+          },
+          "id": 24306,
+          "isConstant": false,
+          "isLValue": false,
+          "isPure": true,
+          "kind": "functionCall",
+          "lValueRequested": false,
+          "nameLocations": [],
+          "names": [],
+          "nodeType": "FunctionCall",
+          "src": "460:95:47",
+          "tryCall": false,
+          "typeDescriptions": {
+            "typeIdentifier": "t_userDefinedValueType$_ResourceId_$26592",
+            "typeString": "ResourceId"
+          }
+        },
+        "visibility": "internal"
+      },
+      {
+        "id": 24322,
+        "nodeType": "VariableDeclaration",
+        "src": "558:133:47",
+        "nodes": [],
+        "constant": true,
+        "mutability": "constant",
+        "name": "ROOT_NAMESPACE_ID",
+        "nameLocation": "578:17:47",
+        "scope": 24341,
+        "stateVariable": false,
+        "storageLocation": "default",
+        "typeDescriptions": {
+          "typeIdentifier": "t_userDefinedValueType$_ResourceId_$26592",
+          "typeString": "ResourceId"
+        },
+        "typeName": {
+          "id": 24309,
+          "nodeType": "UserDefinedTypeName",
+          "pathNode": {
+            "id": 24308,
+            "name": "ResourceId",
+            "nameLocations": [
+              "558:10:47"
+            ],
+            "nodeType": "IdentifierPath",
+            "referencedDeclaration": 26592,
+            "src": "558:10:47"
+          },
+          "referencedDeclaration": 26592,
+          "src": "558:10:47",
+          "typeDescriptions": {
+            "typeIdentifier": "t_userDefinedValueType$_ResourceId_$26592",
+            "typeString": "ResourceId"
+          }
+        },
+        "value": {
+          "arguments": [
+            {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "id": 24316,
+                      "name": "RESOURCE_NAMESPACE",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 24384,
+                      "src": "642:18:47",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes2",
+                        "typeString": "bytes2"
+                      }
+                    },
+                    {
+                      "id": 24317,
+                      "name": "ROOT_NAMESPACE",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 24268,
+                      "src": "662:14:47",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes14",
+                        "typeString": "bytes14"
+                      }
+                    },
+                    {
+                      "id": 24318,
+                      "name": "ROOT_NAME",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 24271,
+                      "src": "678:9:47",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes16",
+                        "typeString": "bytes16"
+                      }
+                    }
+                  ],
+                  "expression": {
+                    "argumentTypes": [
+                      {
+                        "typeIdentifier": "t_bytes2",
+                        "typeString": "bytes2"
+                      },
+                      {
+                        "typeIdentifier": "t_bytes14",
+                        "typeString": "bytes14"
+                      },
+                      {
+                        "typeIdentifier": "t_bytes16",
+                        "typeString": "bytes16"
+                      }
+                    ],
+                    "expression": {
+                      "id": 24314,
+                      "name": "abi",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": -1,
+                      "src": "625:3:47",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_magic_abi",
+                        "typeString": "abi"
+                      }
+                    },
+                    "id": 24315,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "lValueRequested": false,
+                    "memberLocation": "629:12:47",
+                    "memberName": "encodePacked",
+                    "nodeType": "MemberAccess",
+                    "src": "625:16:47",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_function_abiencodepacked_pure$__$returns$_t_bytes_memory_ptr_$",
+                      "typeString": "function () pure returns (bytes memory)"
+                    }
+                  },
+                  "id": 24319,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "functionCall",
+                  "lValueRequested": false,
+                  "nameLocations": [],
+                  "names": [],
+                  "nodeType": "FunctionCall",
+                  "src": "625:63:47",
+                  "tryCall": false,
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes memory"
+                  }
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes memory"
+                  }
+                ],
+                "id": 24313,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "617:7:47",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes32_$",
+                  "typeString": "type(bytes32)"
+                },
+                "typeName": {
+                  "id": 24312,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "617:7:47",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 24320,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "nameLocations": [],
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "617:72:47",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            }
+          ],
+          "expression": {
+            "argumentTypes": [
+              {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            ],
+            "expression": {
+              "id": 24310,
+              "name": "ResourceId",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 26592,
+              "src": "598:10:47",
+              "typeDescriptions": {
+                "typeIdentifier": "t_type$_t_userDefinedValueType$_ResourceId_$26592_$",
+                "typeString": "type(ResourceId)"
+              }
+            },
+            "id": 24311,
+            "isConstant": false,
+            "isLValue": false,
+            "isPure": true,
+            "lValueRequested": false,
+            "memberLocation": "609:4:47",
+            "memberName": "wrap",
+            "nodeType": "MemberAccess",
+            "src": "598:15:47",
+            "typeDescriptions": {
+              "typeIdentifier": "t_function_wrap_pure$_t_bytes32_$returns$_t_userDefinedValueType$_ResourceId_$26592_$",
+              "typeString": "function (bytes32) pure returns (ResourceId)"
+            }
+          },
+          "id": 24321,
+          "isConstant": false,
+          "isLValue": false,
+          "isPure": true,
+          "kind": "functionCall",
+          "lValueRequested": false,
+          "nameLocations": [],
+          "names": [],
+          "nodeType": "FunctionCall",
+          "src": "598:93:47",
+          "tryCall": false,
+          "typeDescriptions": {
+            "typeIdentifier": "t_userDefinedValueType$_ResourceId_$26592",
+            "typeString": "ResourceId"
+          }
+        },
+        "visibility": "internal"
+      },
+      {
+        "id": 24340,
+        "nodeType": "VariableDeclaration",
+        "src": "694:144:47",
+        "nodes": [],
+        "constant": true,
+        "mutability": "constant",
+        "name": "UNLIMITED_DELEGATION",
+        "nameLocation": "714:20:47",
+        "scope": 24341,
+        "stateVariable": false,
+        "storageLocation": "default",
+        "typeDescriptions": {
+          "typeIdentifier": "t_userDefinedValueType$_ResourceId_$26592",
+          "typeString": "ResourceId"
+        },
+        "typeName": {
+          "id": 24324,
+          "nodeType": "UserDefinedTypeName",
+          "pathNode": {
+            "id": 24323,
+            "name": "ResourceId",
+            "nameLocations": [
+              "694:10:47"
+            ],
+            "nodeType": "IdentifierPath",
+            "referencedDeclaration": 26592,
+            "src": "694:10:47"
+          },
+          "referencedDeclaration": 26592,
+          "src": "694:10:47",
+          "typeDescriptions": {
+            "typeIdentifier": "t_userDefinedValueType$_ResourceId_$26592",
+            "typeString": "ResourceId"
+          }
+        },
+        "value": {
+          "arguments": [
+            {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "id": 24331,
+                      "name": "RESOURCE_SYSTEM",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 24390,
+                      "src": "781:15:47",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes2",
+                        "typeString": "bytes2"
+                      }
+                    },
+                    {
+                      "id": 24332,
+                      "name": "ROOT_NAMESPACE",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 24268,
+                      "src": "798:14:47",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes14",
+                        "typeString": "bytes14"
+                      }
+                    },
+                    {
+                      "arguments": [
+                        {
+                          "hexValue": "756e6c696d69746564",
+                          "id": 24335,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "822:11:47",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_2a99c007357d7836fff579cc3480b735ced34796eb2805e33c23d0eaeefdc492",
+                            "typeString": "literal_string \"unlimited\""
+                          },
+                          "value": "unlimited"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_stringliteral_2a99c007357d7836fff579cc3480b735ced34796eb2805e33c23d0eaeefdc492",
+                            "typeString": "literal_string \"unlimited\""
+                          }
+                        ],
+                        "id": 24334,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "814:7:47",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_bytes16_$",
+                          "typeString": "type(bytes16)"
+                        },
+                        "typeName": {
+                          "id": 24333,
+                          "name": "bytes16",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "814:7:47",
+                          "typeDescriptions": {}
+                        }
+                      },
+                      "id": 24336,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "814:20:47",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes16",
+                        "typeString": "bytes16"
+                      }
+                    }
+                  ],
+                  "expression": {
+                    "argumentTypes": [
+                      {
+                        "typeIdentifier": "t_bytes2",
+                        "typeString": "bytes2"
+                      },
+                      {
+                        "typeIdentifier": "t_bytes14",
+                        "typeString": "bytes14"
+                      },
+                      {
+                        "typeIdentifier": "t_bytes16",
+                        "typeString": "bytes16"
+                      }
+                    ],
+                    "expression": {
+                      "id": 24329,
+                      "name": "abi",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": -1,
+                      "src": "764:3:47",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_magic_abi",
+                        "typeString": "abi"
+                      }
+                    },
+                    "id": 24330,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "lValueRequested": false,
+                    "memberLocation": "768:12:47",
+                    "memberName": "encodePacked",
+                    "nodeType": "MemberAccess",
+                    "src": "764:16:47",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_function_abiencodepacked_pure$__$returns$_t_bytes_memory_ptr_$",
+                      "typeString": "function () pure returns (bytes memory)"
+                    }
+                  },
+                  "id": 24337,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "functionCall",
+                  "lValueRequested": false,
+                  "nameLocations": [],
+                  "names": [],
+                  "nodeType": "FunctionCall",
+                  "src": "764:71:47",
+                  "tryCall": false,
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes memory"
+                  }
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes memory"
+                  }
+                ],
+                "id": 24328,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "756:7:47",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes32_$",
+                  "typeString": "type(bytes32)"
+                },
+                "typeName": {
+                  "id": 24327,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "756:7:47",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 24338,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "nameLocations": [],
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "756:80:47",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            }
+          ],
+          "expression": {
+            "argumentTypes": [
+              {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            ],
+            "expression": {
+              "id": 24325,
+              "name": "ResourceId",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 26592,
+              "src": "737:10:47",
+              "typeDescriptions": {
+                "typeIdentifier": "t_type$_t_userDefinedValueType$_ResourceId_$26592_$",
+                "typeString": "type(ResourceId)"
+              }
+            },
+            "id": 24326,
+            "isConstant": false,
+            "isLValue": false,
+            "isPure": true,
+            "lValueRequested": false,
+            "memberLocation": "748:4:47",
+            "memberName": "wrap",
+            "nodeType": "MemberAccess",
+            "src": "737:15:47",
+            "typeDescriptions": {
+              "typeIdentifier": "t_function_wrap_pure$_t_bytes32_$returns$_t_userDefinedValueType$_ResourceId_$26592_$",
+              "typeString": "function (bytes32) pure returns (ResourceId)"
+            }
+          },
+          "id": 24339,
+          "isConstant": false,
+          "isLValue": false,
+          "isPure": true,
+          "kind": "functionCall",
+          "lValueRequested": false,
+          "nameLocations": [],
+          "names": [],
+          "nodeType": "FunctionCall",
+          "src": "737:101:47",
+          "tryCall": false,
+          "typeDescriptions": {
+            "typeIdentifier": "t_userDefinedValueType$_ResourceId_$26592",
+            "typeString": "ResourceId"
+          }
+        },
+        "visibility": "internal"
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 47
+}
