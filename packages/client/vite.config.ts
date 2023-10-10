@@ -13,4 +13,5 @@ export default defineConfig({
     sourcemap: true,
   },
   plugins: [vue()],
+  base: "./",
 });

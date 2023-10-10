@@ -18,7 +18,7 @@ setup().then(async (result) => {
   };
   setIncrement(incrementFun)
 
-  if (import.meta.env.DEV) {
+  // if (import.meta.env.DEV) {
     const { mount: mountDevTools } = await import("@latticexyz/dev-tools");
     mountDevTools({
       config: mudConfig,
@@ -31,7 +31,7 @@ setup().then(async (result) => {
       write$: result.network.write$,
       recsWorld: result.network.world,
     });
-  }
+  // }
 })
 
 createApp(App).mount('#app')
