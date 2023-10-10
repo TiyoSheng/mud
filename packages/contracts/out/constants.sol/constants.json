@@ -1,0 +1,82 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "/Users/shengtianyao/project/jetable/my-project1/node_modules/.pnpm/@latticexyz+world-modules@2.0.0-next.11_typescript@5.1.6/node_modules/@latticexyz/world-modules/src/modules/keyswithvalue/constants.sol",
+    "id": 23199,
+    "exportedSymbols": {
+      "MODULE_NAMESPACE": [
+        23198
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:286:33",
+    "nodes": [
+      {
+        "id": 23195,
+        "nodeType": "PragmaDirective",
+        "src": "32:25:33",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".21"
+        ]
+      },
+      {
+        "id": 23198,
+        "nodeType": "VariableDeclaration",
+        "src": "272:44:33",
+        "nodes": [],
+        "constant": true,
+        "mutability": "constant",
+        "name": "MODULE_NAMESPACE",
+        "nameLocation": "288:16:33",
+        "scope": 23199,
+        "stateVariable": false,
+        "storageLocation": "default",
+        "typeDescriptions": {
+          "typeIdentifier": "t_bytes7",
+          "typeString": "bytes7"
+        },
+        "typeName": {
+          "id": 23196,
+          "name": "bytes7",
+          "nodeType": "ElementaryTypeName",
+          "src": "272:6:33",
+          "typeDescriptions": {
+            "typeIdentifier": "t_bytes7",
+            "typeString": "bytes7"
+          }
+        },
+        "value": {
+          "hexValue": "6b65797776616c",
+          "id": 23197,
+          "isConstant": false,
+          "isLValue": false,
+          "isPure": true,
+          "kind": "string",
+          "lValueRequested": false,
+          "nodeType": "Literal",
+          "src": "307:9:33",
+          "typeDescriptions": {
+            "typeIdentifier": "t_stringliteral_bc8bbcf129ffd3b0bed3820609c6522083dda1d7b1fcad4c6ddc486d15cf2721",
+            "typeString": "literal_string \"keywval\""
+          },
+          "value": "keywval"
+        },
+        "visibility": "internal"
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 33
+}
