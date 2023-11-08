@@ -4856,7 +4856,7 @@
       }
     },
     "src/codegen/index.sol": {
-      "lastModificationDate": 1696915619786,
+      "lastModificationDate": 1699426489874,
       "contentHash": "eea854e36cfb6eb077d85d3a06ef1474",
       "sourceName": "src/codegen/index.sol",
       "solcConfig": {
@@ -4944,7 +4944,7 @@
       }
     },
     "src/codegen/tables/Counter.sol": {
-      "lastModificationDate": 1696915619781,
+      "lastModificationDate": 1699426489869,
       "contentHash": "75dce4c440c0c5b161b1915f5c2899fc",
       "sourceName": "src/codegen/tables/Counter.sol",
       "solcConfig": {
@@ -5031,7 +5031,7 @@
       }
     },
     "src/codegen/world/IIncrementSystem.sol": {
-      "lastModificationDate": 1696915621203,
+      "lastModificationDate": 1699426489900,
       "contentHash": "c2b0e89be97c3b1919293ca2bfdf239b",
       "sourceName": "src/codegen/world/IIncrementSystem.sol",
       "solcConfig": {
@@ -5071,7 +5071,7 @@
       }
     },
     "src/codegen/world/IWorld.sol": {
-      "lastModificationDate": 1696915621209,
+      "lastModificationDate": 1699426489904,
       "contentHash": "9b0779a2a25769436eb0154c967bca7d",
       "sourceName": "src/codegen/world/IWorld.sol",
       "solcConfig": {

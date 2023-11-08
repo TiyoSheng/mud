@@ -1,36 +1,35 @@
 import { setup } from "./mud/setup";
 import mudConfig from "contracts/mud.config";
-import { createApp } from 'vue'
+import { createApp, toRaw } from 'vue'
 import App from './App.vue'
 import { useGlobalStore } from './hooks/globalStore'
 
-const { setCounter, setIncrement } = useGlobalStore()
+const { setComponents, setSystemCalls, setNetwork } = useGlobalStore()
 
 setup().then(async (result) => {
-  console.log("setup result", result);
-  result.components.Counter.update$.subscribe((update) => {
-    const [nextValue, prevValue] = update.value;
-    console.log("Counter updated", update, { nextValue, prevValue });
-    setCounter(nextValue?.value ?? "unset")
-  });
-  const incrementFun = async () => {
-    await result.systemCalls.increment();
-  };
-  setIncrement(incrementFun)
+  console.log("MUD setup complete", result);
+  const {
+    components,
+    systemCalls,
+    network,
+  } = result;
+  setComponents(toRaw(components))
+  setSystemCalls(toRaw(systemCalls))
+  setNetwork(toRaw(network))
 
   // if (import.meta.env.DEV) {
-    const { mount: mountDevTools } = await import("@latticexyz/dev-tools");
-    mountDevTools({
-      config: mudConfig,
-      publicClient: result.network.publicClient,
-      walletClient: result.network.walletClient,
-      latestBlock$: result.network.latestBlock$,
-      storedBlockLogs$: result.network.storedBlockLogs$,
-      worldAddress: result.network.worldContract.address,
-      worldAbi: result.network.worldContract.abi,
-      write$: result.network.write$,
-      recsWorld: result.network.world,
-    });
+  const { mount: mountDevTools } = await import("@latticexyz/dev-tools");
+  mountDevTools({
+    config: mudConfig,
+    publicClient: result.network.publicClient,
+    walletClient: result.network.walletClient,
+    latestBlock$: result.network.latestBlock$,
+    storedBlockLogs$: result.network.storedBlockLogs$,
+    worldAddress: result.network.worldContract.address,
+    worldAbi: result.network.worldContract.abi,
+    write$: result.network.write$,
+    recsWorld: result.network.world,
+  });
   // }
 })
 
