@@ -8,9 +8,9 @@ const { store } = useGlobalStore()
 
 const count = ref(0)
 const incrementFun = async () => {
-  await store.state.systemCalls.increment()
-  console.log('incremented', getComponentValue(store.state.components.Counter, singletonEntity))
-  count.value = getComponentValue(store.state.components.Counter, singletonEntity).value;
+  await store.systemCalls.increment()
+  console.log('incremented', getComponentValue(store.components.Counter, singletonEntity))
+  count.value = getComponentValue(store.components.Counter, singletonEntity).value;
 }
 </script>
 <template>
